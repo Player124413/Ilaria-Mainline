@@ -13,7 +13,7 @@ def main():
     print(ind, 'Download All')
 
     print('Choose which pretrains you want (number):')
-    pretrain_choice = input('> ')
+    pretrain_choice = input('10')
     if int(pretrain_choice) != ind:
         pretrain_helper.download_pretrain(pretrains[int(pretrain_choice)])
         for i in pretrains:
